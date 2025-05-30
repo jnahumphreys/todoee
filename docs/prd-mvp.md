@@ -52,7 +52,7 @@ Deliver a functional, minimalist task tracker with full CRUD capabilities, local
 - Application must adhere to **Semantic Versioning**
 - Application must use **React + Zustand** for state management
 - Application must persist data using **LocalStorage**
-- Application must be built with **Vite**, **TypeScript**, **Tailwind CSS**, and **Headless UI**
+- Application must be built with **Vite**, **TypeScript**, **Tailwind CSS**
 - All dependencies and setup should be Dockerized in a single container using **VSCode DevContainers**
 - Application should be unit and end-to-end tested to ensure functionality of core functional requirements
 - Use **Storybook** for component development
