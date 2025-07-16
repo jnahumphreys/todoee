@@ -8,7 +8,7 @@
 
 ## What's the current status of Todoee?
 
-Todoee is currently in active development; the initial release will support basic task management—including creating, editing, completing, and deleting tasks—along with a simple self-hosting setup via Docker. We're focused on building a fast, local-first experience with no external dependencies. For a detailed breakdown of what's planned, check out the [MVP Product Requirements Document](https://github.com/jnahumphreys/todoee/blob/main/docs/prd-mvp.md).
+Todoee is currently in active development; the initial release will support basic task management—including creating, editing, completing, and deleting tasks—along with a simple self-hosting setup via Docker. We're focused on building a fast, local-first experience with no external dependencies. For a detailed breakdown of what's planned, check out the [MVP Product Requirements Document](docs/PRD.md).
 
 ## What is the license?
 
