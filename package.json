@@ -9,7 +9,9 @@
   "description": "Minimalist, privacy-first task manager; self-hostable with offline support. No accounts, no cloud, just your tasks!",
   "scripts": {
     "lint": "npm run lint --workspaces",
-    "lint:frontend": "npm run lint --workspace=frontend"
+    "lint:frontend": "npm run lint --workspace=frontend",
+    "format": "npm run format --workspaces",
+    "format:frontend": "npm run format --workspace=frontend"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,10 @@
   "devDependencies": {
     "@eslint/js": "^9.31.0",
     "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
+    "prettier": "3.6.2",
     "typescript-eslint": "^8.37.0"
   }
 }

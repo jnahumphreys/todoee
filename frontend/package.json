@@ -5,7 +5,8 @@
   "main": "src/main.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "author": "",
   "license": "SEE LICENSE IN ../LICENSE.md"
