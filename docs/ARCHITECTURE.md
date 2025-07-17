@@ -80,6 +80,26 @@
 
 ---
 
+## 🔗 Tooling Links
+
+Below are links to the primary tooling used in Todoee's architecture:
+
+- **React**: [https://reactjs.org/](https://reactjs.org/)
+- **TypeScript**: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+- **Zustand**: [https://github.com/pmndrs/zustand](https://github.com/pmndrs/zustand)
+- **Flowbite**: [https://flowbite.com/](https://flowbite.com/)
+- **Dexie.js**: [https://dexie.org/](https://dexie.org/)
+- **Fastify**: [https://www.fastify.io/](https://www.fastify.io/)
+- **SQLite**: [https://sqlite.org/](https://sqlite.org/)
+- **Prisma**: [https://www.prisma.io/](https://www.prisma.io/)
+- **Docker**: [https://www.docker.com/](https://www.docker.com/)
+- **Vite**: [https://vitejs.dev/](https://vitejs.dev/)
+- **Playwright**: [https://playwright.dev/](https://playwright.dev/)
+- **Storybook**: [https://storybook.js.org/](https://storybook.js.org/)
+- **GitHub Actions**: [https://github.com/features/actions](https://github.com/features/actions)
+
+---
+
 ## ❌ Deliberately Out of Scope for MVP
 
 - No authentication or user roles
