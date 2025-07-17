@@ -1,0 +1,12 @@
+{
+  "name": "@todoee/frontend",
+  "version": "0.1.0",
+  "description": "React PWA frontend for Todoee task manager",
+  "main": "src/main.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "SEE LICENSE IN ../LICENSE.md"
+}

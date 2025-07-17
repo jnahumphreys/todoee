@@ -1,13 +1,15 @@
 {
   "name": "todoee",
+  "private": true,
   "version": "0.1.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "description": "Minimalist, privacy-first task manager; self-hostable with offline support. No accounts, no cloud, just your tasks!",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npm run lint --workspaces",
+    "lint:frontend": "npm run lint --workspace=frontend"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/jnahumphreys/todoee/issues"
   },
-  "homepage": "https://github.com/jnahumphreys/todoee#readme"
+  "homepage": "https://github.com/jnahumphreys/todoee#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.37.0"
+  }
 }
