@@ -9,5 +9,5 @@
     "format": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "author": "",
-  "license": "SEE LICENSE IN ../LICENSE.md"
+  "license": "SEE LICENSE IN ../../LICENSE.md"
 }

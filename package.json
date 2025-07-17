@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.1.0",
   "workspaces": [
-    "frontend",
-    "backend"
+    "apps/*"
   ],
   "description": "Minimalist, privacy-first task manager; self-hostable with offline support. No accounts, no cloud, just your tasks!",
   "scripts": {
     "lint": "npm run lint --workspaces",
-    "lint:frontend": "npm run lint --workspace=frontend",
+    "lint:frontend": "npm run lint --workspace=@todoee/frontend",
     "format": "npm run format --workspaces",
-    "format:frontend": "npm run format --workspace=frontend"
+    "format:frontend": "npm run format --workspace=@todoee/frontend"
   },
   "repository": {
     "type": "git",
