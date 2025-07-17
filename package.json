@@ -1,0 +1,22 @@
+{
+  "name": "todoee",
+  "version": "0.1.0",
+  "description": "Minimalist, privacy-first task manager; self-hostable with offline support. No accounts, no cloud, just your tasks!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnahumphreys/todoee.git"
+  },
+  "author": "James Humphreys",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/jnahumphreys/todoee/issues"
+  },
+  "homepage": "https://github.com/jnahumphreys/todoee#readme"
+}
